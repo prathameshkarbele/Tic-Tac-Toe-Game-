@@ -51,7 +51,7 @@ const checkWin = () =>{
         if(boxtext.innerText == ''){
             boxtext.innerText = turnX;
           turnX = chnageTurn();
-          // Audioturn.play();
+          Audioturn.play();
           checkWin();
 
           if(!IsgameOver){
